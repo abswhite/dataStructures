@@ -3,7 +3,7 @@
 function isPalindrome(string) {
   let length = string.length
   let array = [];
-  *splice into array
+  // splice string into array
 
   let last = length-1;
   let first = 0;
