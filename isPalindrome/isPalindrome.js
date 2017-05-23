@@ -8,7 +8,7 @@ function isPalindrome(string) {
   let last = length-1;
   let first = 0;
 
-  for (var i = 0; i < (length/2); i++) {
+  for (var i = 0; i < (last/2); i++) {
 
     if(array[first] != array[last]) {
       return false;
