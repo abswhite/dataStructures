@@ -3,15 +3,15 @@ Abswhite 2017
 
 ## Sections
 
-### Big O Notation
+### 1. Big O Notation
 
-### Linked Lists
+### 2. Linked Lists
 
-### Stacks and Queues
+### 3. Stacks and Queues
 
-### Binary Search Trees
+### 4. Binary Search Trees
 
-### Hash Tables
+### 5. Hash Tables
 
-### References
+#### References
 * "Cracking the Coding Interview" by Gayle Laackmann McDowell
