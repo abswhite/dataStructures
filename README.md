@@ -6,6 +6,8 @@ Abswhite 2017
 ### 1. Big O Notation
 
 ### 2. Linked Lists
+* Reverse / tests
+* Remove / tests
 
 ### 3. Stacks and Queues
 

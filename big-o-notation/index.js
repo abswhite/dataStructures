@@ -1,6 +1,6 @@
-// CONSTANT 
+// CONSTANT
 const getLast = (items) => {
-   return items[items.length-1]; 
+   return items[items.length-1];
 };
 
 // LINEAR
@@ -14,7 +14,7 @@ const findIndex = (items, match) => {
 // QUADRATIC
 const buildSquareMatrix = (items) => {
    let matrix= [];
-   for (let i=0, total=items.length; i < total; i++){ 
+   for (let i=0, total=items.length; i < total; i++){
       matrix[i] = [];
       for (let j=0, total=items.length; j < total; j++)
          matrix[i].push(items[j]);
