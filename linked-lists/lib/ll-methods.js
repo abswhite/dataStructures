@@ -2,33 +2,20 @@
 
 const Stack = module.exports = require('./linked-lists');
 
-// O(n) Big O Notation
 Stack.prototype.push = function(val) {
   this.insert(val);
   return this;
 };
 
-// O(n) Big O Notation
 Stack.prototype.pop = function() {
   this.shift();
   return this;
 };
 
-// O(n) Big O Notation
 Stack.prototype.peek = function() {
   return this.head.val;
 };
 
-
-//WHITEBOARDING: determine if a string has matching opening and closing brackets/parens
-
-// func(string) {
-//   iterate through string
-//   for each - see if it is an opening bracket, if it is, add it to the stack
-//   if the next one is a closing bracket, pop the openening bracket off the stack
-// }
-
-// O(n) Big O Notation
 Stack.prototype.closeBracket = function(string) {
 
   for(let i = 0; i < string.length; i++) {
@@ -43,7 +30,6 @@ Stack.prototype.closeBracket = function(string) {
   return true;
 };
 
-// O(n) Big O Notation
 Stack.prototype.mixedCharacters = function(string) {
 
   if (string.length%2 === 0) {
